@@ -1,5 +1,5 @@
 # Created with YamlCreate.ps1 Dumplings Mod
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: KDE.Picmi
 PackageVersion: master
@@ -9,15 +9,15 @@ ProductCode: picmi
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/picmi/master/windows/picmi-master-662-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: F670F19AA97302BC4F37D86B043126A46863B0E785D1FAF104526346005CF294
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/picmi/master/windows/picmi-master-784-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: AF8B62B82F01B36DB878857116A795AC10F797E4A78310B605F1DA9BF8F2F2FA
   InstallerSwitches:
     Custom: /CurrentUser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/picmi/master/windows/picmi-master-662-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: F670F19AA97302BC4F37D86B043126A46863B0E785D1FAF104526346005CF294
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/picmi/master/windows/picmi-master-784-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: AF8B62B82F01B36DB878857116A795AC10F797E4A78310B605F1DA9BF8F2F2FA
   InstallerSwitches:
     Custom: /AllUsers
 ManifestType: installer
-ManifestVersion: 1.10.0
+ManifestVersion: 1.12.0
